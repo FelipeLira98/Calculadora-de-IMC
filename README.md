@@ -1,4 +1,4 @@
-<h3> Calculadora de IMC <h3/>
+<h1> Calculadora de IMC <h1/>
 ** Base do Código guiado pelo curso da Udemy**
 
 NOVIDADES EM BREVE
