@@ -3,20 +3,26 @@
 :root {
   --bodybkg-color: #a3a4a7;
   --body-color: #f7f7f7;
-  --container-color: #2a3580;
+  --container-color: #202d82;
   --buttonbkg-color: #d6d2d2;
   --button-color: #000000;
-  --buttonhover-color: #259e25;
+  --buttonhover-color: #54bc54;
 }
 * {
   box-sizing: border-box;
   outline: 0;
 }
+body{  /*background image*/
+  background-image: url(../img/fundo1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 
 body {
   margin: 0;
   padding: 0;
-  background: var(--bodybkg-color);
+  background color: var(--bodybkg-color);
   color: var(--body-color);
   font-family: "Open sans", sans-serif;
   font-size: 1.3em;
@@ -27,7 +33,7 @@ body {
   align-items: center;
 }
 
-.tabelaImc {
+.tabelaImc  {
   max-width: 640px;
   margin: 50px;
   background: var(--container-color);
